@@ -14,3 +14,31 @@
     justify-content: center;
     text-align: center;
 }
+
+.hero-content h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.hero-content p{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.bt-custom{
+    background-color: #F85606;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+.bt-custom:hover{
+    background-color: green;
+    color: white;
+}
