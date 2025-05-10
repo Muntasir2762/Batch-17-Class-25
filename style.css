@@ -81,3 +81,72 @@
 .feature-card p{
     color: white;
 }
+
+.testimonial-section{
+    padding: 60px 0px;
+    background-color: rgb(114, 107, 107);
+    text-align: center;
+}
+
+.testimonial-section h2{
+    margin-bottom: 50px;
+    font-weight: 600;
+    /* color:#F85606; */
+}
+
+.testimonial-content{
+    padding: 30px;
+    background-color: #c64b0e;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+.testimonial-content img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonial-content p{
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.testimonial-content h5{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.checkout-section{
+    padding: 60px 0px;
+}
+
+.checkout-section h2{
+    text-align: center;
+    font-weight: 600px;
+    margin-bottom: 50px;
+}
+
+.checkout-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    background-color: gray;
+    box-shadow: 27px -4px 11px 0px rgb(82, 72, 72);
+}
+
+.checkout-form .custom-input{
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btn-custom{
+    width: 100%;
+    background-color: #F85606;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
