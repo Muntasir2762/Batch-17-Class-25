@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .header-section{
@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* font-family: "Hind Siliguri"; */
 }
 
 .hero-content h1{
@@ -149,4 +150,54 @@
     border: none;
     border-radius: 15px;
     padding: 5px;
+}
+
+.footer{
+    padding: 60px 0px;
+    background-color: rgb(70, 66, 66);
+    color: white;
+}
+
+.footer-content{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 400px;
+}
+
+.footer-logo{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.social-icons{
+    padding: 10px;
+}
+
+.social-icons a{
+    /* color: white; */
+    font-size: 1.5rem;
+    margin-right: 5px;
+    transition: color 0.5s ease;
+
+}
+
+.social-icons a:hover{
+    color: white;
+}
+
+.social-icons .fb{
+    color: #0866FF;
+
+}
+
+.social-icons .youtube{
+    color: #F70305;
+
+}
+
+.social-icons .twitter{
+    color: rgb(36, 34, 34);
+
 }
