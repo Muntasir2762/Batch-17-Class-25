@@ -5,7 +5,7 @@
 }
 
 .header-section{
-    background-image: url('https://placehold.co/1920x1080');
+    background-image: url('images/banner.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -162,23 +162,26 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    margin-left: 400px;
+    /* margin-left: 400px; */
 }
 
 .footer-logo{
-    width: 150px;
-    height: 60px;
+    width: 200px;
+    height: 100px;
     margin-bottom: 15px;
+    background-color: white;
+    margin: auto;
 }
 
 .social-icons{
     padding: 10px;
+    /* background-color: blue; */
 }
 
 .social-icons a{
     /* color: white; */
     font-size: 1.5rem;
-    margin-right: 5px;
+    margin-right: 10px;
     transition: color 0.5s ease;
 
 }
